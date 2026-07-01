@@ -1,0 +1,41 @@
+# requirements.txt
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+pydantic-settings
+sqlalchemy
+librosa
+soundfile
+scipy
+numpy
+python-multipart
+aiofiles
+httpx
+torch
+transformers
+pyannote.audio
+
+
+# RAG and ML
+sentence-transformers
+chromadb
+transformers
+torch
+
+# Export
+python-docx
+fpdf2
+reportlab
+
+# OCR
+pytesseract
+Pillow
+opencv-python
+
+# Google Integration
+google-api-python-client
+google-auth-oauthlib
+
+# Translation
+googletrans

@@ -1,0 +1,1 @@
+# Legacy models stub - use app.db.models instead

@@ -1,0 +1,66 @@
+# Ignore this folder completely
+classroom_minutes_app/
+
+# Secrets / environment
+.env
+backend/.env
+frontend/.env
+*.env
+
+# Database
+*.db
+backend/classroom_minutes.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+venv/
+.venv/
+
+# Uploaded/generated data (test artifacts, not source)
+backend/data/raw/
+backend/data/transcripts/
+backend/data/temp/
+backend/data/summaries/
+backend/exports/
+data/raw/
+data/transcripts/
+data/summaries/
+
+# Flutter / Dart (frontend/)
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/build/
+frontend/pubspec.lock
+frontend/.metadata
+
+# Android
+frontend/android/.gradle/
+frontend/android/local.properties
+frontend/android/key.properties
+frontend/android/**/gradle-wrapper.jar
+
+# iOS / macOS
+frontend/ios/Flutter/Flutter.framework/
+frontend/ios/Flutter/ephemeral/
+frontend/ios/Pods/
+frontend/ios/.symlinks/
+frontend/macos/Flutter/ephemeral/
+**/*.xcworkspace/xcuserdata/
+**/DerivedData/
+
+# Windows / Linux desktop
+frontend/windows/flutter/ephemeral/
+frontend/linux/flutter/ephemeral/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
